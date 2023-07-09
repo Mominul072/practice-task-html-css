@@ -42,3 +42,112 @@
 .all-thinks .btn-primary .there-are{
      align-items: center;
 }
+
+
+/* main section started now */
+.picture{
+    /* background-color: #FD6E0A; */
+    width: 451px;
+
+
+}
+
+.previous-topic{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  
+   
+    
+}
+
+.previous-history{
+     
+    
+    justify-content: space-evenly;
+    gap: 40px;
+
+}
+
+
+
+li a{
+    text-decoration: none;
+    
+}
+
+
+/* plan section */
+
+
+.plans-title{
+   color: #151414;
+   font-size: 40px;
+   font-weight: 700;
+   text-align: center;
+}
+
+.my-plans-container{
+    display: flex;
+    text-align: center;
+    /* gap: 14px; */
+}
+
+.plans-description{
+    padding: 30px 140px;
+
+}
+
+
+/* banner */
+.banner-container{
+    background-image: url("./images/gradient2.png");
+    margin: 230px;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    width: 1140px;
+    height: 300px;
+   
+}
+
+.banner-image {
+  
+
+}
+
+.history-section{
+    text-align: center;
+}
+
+
+/* Footer section */
+footer{
+    display: flex;
+    gap: 150px;
+    background: var(--dark-01, #151414);
+    padding: 130px 230px;
+    margin-top: 130px;
+    color: #FFF;
+}
+.footer-colum{
+    width:50%;
+    
+}
+
+.input-form{
+    padding: 15px;
+    font-size: 15px;
+    background-color: #151414;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+button{
+    color: #F15B22;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+
+}
